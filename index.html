@@ -25,102 +25,335 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Página Inicial</a>
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle text-black" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            Família
+                            Curiosities
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Jake's Friends</a></li>
+                            <li><a class="dropdown-item" href="#">Little More</a></li>
+                            <li><a class="dropdown-item" href="#">Love Jake</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Meet the Creator</a></li>
                         </ul>
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit">Search</button>
                 </form>
             </div>
         </div>
     </nav>
     <!--/Menu-->
+    <div class="margin-site">
+        <!--Carousel-->
+        <div id="carouselExampleCaptions" class="carousel slide margin-carousel" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner height-carousel">
+                <div class="carousel-item active">
+                    <img src="img/jake-the-dog.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="img/jake-friends.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="text-pink fw-bold shadow-text padding-b-80px">Jake's Friends</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/jake-children.jpg" class="d-block w-100 " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="fw-bold text-light shadow-text padding-b-80px">Jake's Family</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/jake-jutsu.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="fw-bold text-warning shadow-text padding-b-80px">Jake Transformations</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/jake-original.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="fw-bold text-info shadow-text padding-b-80px">Son of the Stars</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/jake-lich.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="fw-bold text-black shadow-text padding-b-80px">Possesed Jake</h2>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev height-carousel" type="button"
+                data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next height-carousel" type="button"
+                data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--/Carousel-->
+        <div class="bg-warning margin-tittle">
+            <h1 class="p-4 text-center fw-bold text-black">Jake's Story</h1>
+        </div>
 
-    <!--Carousel-->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+        <!--Cards-->
+        <h2 class="pt-4 text-center fw-bold text-warning border-bottom">These are some of Jake's friends</h2>
+
+        <div class="d-flex flex-wrap justify-content-around border-bottom">
+            <div class="card m-3 border-5 border-warning bg-black" style="width: 18rem;">
+                <!--Carousel-->
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner height-carousel-cards">
+                        <div class="carousel-item active">
+                            <img src="img/friends/finn/finn-the-human.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/friends/finn/finn-jake-ep-finn-the-human.jpeg" class="d-block w-100"
+                                alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/friends/finn/finn-jake.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/friends/finn/baby-finn.gif" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/friends/finn/finn-hair.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/friends/finn/finn-shave-head.gif" class="d-block w-100 object-position-y65-"
+                                alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/friends/finn/finn-ice-king.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!--/Carousel-->
+                <div class="card-body text-light">
+                    <h5 class="card-title text-center text-warning">Finn The Human</h5>
+                    <p class="card-text">Mussum Ipsum, cacilds vidis litro abertis. Paisis, filhis, espiritis santis.
+                        Per aumento de cachacis, eu reclamis. Mauris nec dolor in eros commodo tempor. Aenean aliquam
+                        molestie leo, vitae iaculis nisl. Mé faiz elementum girarzis, nisi eros vermeio.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card m-3 border-5 border-warning bg-black" style="width: 18rem;">
+                <!--Carousel-->
+                <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner height-carousel-cards">
+                        <div class="carousel-item active">
+                            <img src="img/friends/prismo/prismo-old.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/friends/prismo/prismo-room.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/friends/prismo/prismo-jake-cute.gif" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/friends/prismo/ritual-prismo.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/friends/prismo/save-prismo.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/friends/prismo/prismo-wrinkly-old-man.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!--/Carousel-->
+                <div class="card-body text-light">
+                    <h5 class="card-title text-center text-warning">Prismo</h5>
+                    <p class="card-text">Mussum Ipsum, cacilds vidis litro abertis. Paisis, filhis, espiritis santis.
+                        Per aumento de cachacis, eu reclamis. Mauris nec dolor in eros commodo tempor. Aenean aliquam
+                        molestie leo, vitae iaculis nisl. Mé faiz elementum girarzis, nisi eros vermeio.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card m-3 border-5 border-warning bg-black" style="width: 18rem;">
+                <!--Carousel-->
+                <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner height-carousel-cards">
+                        <div class="carousel-item active">
+                            <img src="img/friends/beemo/beemo-cute.gif" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/friends/beemo/beemo-skate.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/friends/beemo/beemo-playing-guitar.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/friends/beemo/crushed-beemo.gif" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/friends/beemo/beemo-in-mirror.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/friends/beemo/beemo-bubble.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/friends/beemo/beemo-father.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!--/Carousel-->
+                <div class="card-body text-light">
+                    <h5 class="card-title text-center text-warning">Beemo</h5>
+                    <p class="card-text">Mussum Ipsum, cacilds vidis litro abertis. Paisis, filhis, espiritis santis.
+                        Per aumento de cachacis, eu reclamis. Mauris nec dolor in eros commodo tempor. Aenean aliquam
+                        molestie leo, vitae iaculis nisl. Mé faiz elementum girarzis, nisi eros vermeio.
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/baby-finn-jake.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+
+        <div class="row ">
+            <div class="col-6">
+                <h3 class="pt-3 pb-3 fw-bold text-warning">A little more from Jake</h3>
+                <div class="text-light">
+                    <p>
+                        Mussum Ipsum, cacilds vidis litro abertis. Casamentiss faiz malandris se pirulitá. Praesent
+                        malesuada
+                        urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Pra lá , depois divoltis
+                        porris,
+                        paradis. Paisis, filhis, espiritis santis.
+                    </p>
+                    <p>
+                        In elementis mé pra quem é amistosis quis leo. Em pé sem cair, deitado sem dormir, sentado sem
+                        cochilar e fazendo pose. Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Manduma
+                        pindureta quium dia nois paga.
+                    </p>
+                    <p>
+                        Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum. Viva Forevis
+                        aptent taciti sociosqu ad litora torquent. Diuretics paradis num copo é motivis de denguis.
+                        Sapien
+                        in monti palavris qui num significa nadis i pareci latim.
+                    </p>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="img/gang-jake.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/jakes-babies.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
+
+            <div class="col-6 mt-5">
+                <iframe class="w-100 h-100" src="https://www.youtube.com/embed/lZag7x21oi0" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+
+        <div class="row">
+            <div class="d-flex flex-column col-8 justify-content-around">
+                <h2 class="mt-5 fw-bold text-warning text-center">Declare your love for Jake</h2>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label text-light">Little Email:</label>
+                    <input type="email" class="form-control w-75" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-4">
+                    <label for="exampleFormControlTextarea1" class="form-label text-light">I love Jake
+                        because...</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Who is the second best in the land of Ooo?</option>
+                    <option value="1">Finn</option>
+                    <option value="2">Beemo</option>
+                    <option value="3">Marceline</option>
+                    <option value="4">Princess Bubblegum</option>
+                    <option value="5">Ice King</option>
+                    <option value="6">Lumpy Space Princess</option>
+                    <option value="7">Earl of Lemongrab</option>
+                    <option value="8">Lady Rainicorn</option>
+                </select>
+
+                <button type="button" class="btn btn-warning mt-4 fw-bold w-50">I love you everything burrito!</button>
+            </div>
+            <img class="col-4 mt-5" src="img/jake-form.png" alt="">
+        </div>
+
+        <hr class="border-bottom border-warning border-2">
+        <footer>
+            <div class="d-flex justify-content-center bg-warning d-inline rounded-pill">
+                <a href="https://www.facebook.com/" target="_blank" class="p-1 me-5">
+                    <img class="logo" src="img/logos/linkedin.png" alt="Logo do Facebook">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="p-1 me-5">
+                    <img class="logo" src="img/logos/jake.png" alt="Logo do Intagram">
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank" class="p-1">
+                    <img class="logo" src="img/logos/github.png" alt="Logo do Linkedin">
+                </a>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center text-warning">
+                        Todos os direitos reservados: Charlô &copy
+                    </p>
+                </div>
+            </div>
+        </footer>
     </div>
-    <!--/Carousel-->
-
-    <!--Grid
-        <div class="container">
-            <div class="row mt-5 d-flex justify-content-center">
-
-                <div class="col-md-1 p-0">
-                    <div class="bg-danger">1 coluna</div>
-                </div>
-                <div class="col-md-1 p-0">
-                    <div class="bg-dark">2 coluna</div>
-                </div>
-                <div class="col-md-1">
-                    <div class="bg-info">3 coluna</div>
-                </div>
-                <div class="col-md-1">
-                    <div class="bg-primary">4 coluna</div>
-                </div>
-                <div class="col-md-1">
-                    <div class="bg-success">5 coluna</div>
-                </div>
-            </div>
-        </div>
-    /Grid-->
-
-
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">

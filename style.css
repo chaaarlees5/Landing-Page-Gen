@@ -1,4 +1,65 @@
-.h-page {
-    height: 400px;
-    width: 800px;
+body {
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.height-carousel {
+    max-height: 555px;
+}
+
+.height-carousel-cards {
+    max-height: 350px;
+}
+
+.height-footer {
+    max-height: 50px !important;
+}
+
+.margin-site {
+    margin: 0px 100px 0px 100px !important;
+}
+
+.padding-b-80px {
+    padding-bottom: 80px;
+}
+
+
+.text-pink {
+    color: #FAB9A3;
+}
+
+.text-salmon {
+    color: #FDCA93;
+}
+
+.text-prismo {
+    color: #E8E8A1;
+}
+
+.text-brick {
+    color: #D94A8C;
+}
+
+.text-jutsu {
+    color: #82700A;
+}
+
+.text-children {
+    color: #474955;
+}
+
+.shadow-text {
+    text-shadow: 5px 5px 10px black;
+}
+
+.margin-tittle {
+    margin: 15px  0px;
+}
+
+.logo {
+    height: 50px;
+    transition: 0.5s;
+}
+
+.logo:hover {
+    opacity: 0.5;
 }
